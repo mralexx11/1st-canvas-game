@@ -66,8 +66,13 @@ function draw() {
             && xPos <= pipe[i].x + pipeUp.width
             && (yPos <= pipe[i].y + pipeUp.height
                 || yPos + bird.height >= pipe[i].y + pipeUp.height + gap) || yPos + bird.height >= cvs.height - fg.height)  {
-                    confirm("Do you want to continue?");
+                    
+                  if (confirm("Do you want to continue?")) {
                     location.reload(); //Reload if bird crash
+                  } else{
+                    close();
+                  }
+                   
                 }
 
         if(pipe[i].x ==5) {
@@ -86,7 +91,7 @@ function draw() {
     ctx.fillStyle = "#000";
     ctx.font = "24px Verdana";
     ctx.fillText("Score: " + score, 10, cvs.height - 20);
-    ctx.fillText("Влад и Франция", 10, 20 )
+    // ctx.fillText("Влад и Франция", 10, 20 )
 
     requestAnimationFrame(draw);
 }
