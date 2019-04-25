@@ -8,18 +8,18 @@ const fg = new Image();
 const pipeUp = new Image();
 const pipeBottom = new Image();
 
-bird.src = "/img/bird.png";
-bg.src = "/img/bg.png";
-fg.src = "/img/fg.png";
-pipeUp.src = "/img/pipeUp.png";
-pipeBottom.src = "/img/pipeBottom.png";
+bird.src = "./img/bird.png";
+bg.src = "./img/bg.png";
+fg.src = "./img/fg.png";
+pipeUp.src = "./img/pipeUp.png";
+pipeBottom.src = "./img/pipeBottom.png";
 
 //Sounds
 let fly = new Audio();
 let scr_audio = new Audio();
 
-fly.src = "/audio/fly.mp3";
-scr_audio.src = "/audio/score.mp3";
+fly.src = "./audio/fly.mp3";
+scr_audio.src = "./audio/score.mp3";
 
 const gap = 90;
 

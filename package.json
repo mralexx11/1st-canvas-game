@@ -1,0 +1,22 @@
+{
+  "name": "Game_prjct_canvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html --no-cache",
+    "start": "parcel index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mralexx11/1st-canvas-game.git"
+  },
+  "keywords": [],
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mralexx11/1st-canvas-game/issues"
+  },
+  "homepage": "https://github.com/mralexx11/1st-canvas-game#readme"
+}
